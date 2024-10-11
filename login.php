@@ -17,10 +17,10 @@
       <form action="" class="w-4/5 m-2 mt-2">
         <label for="">
           <h4 class="mt-4 mb-2">Email</h4>
-          <input type="email" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-black">
+          <input type="email" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-gray-400">
         <label for="" >
           <h4 class="mt-4 mb-2">Password</h4>
-          <input type="password" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-black">
+          <input type="password" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-gray-400">
           <button type="submit" class="bg-yellow-500 w-full p-1 mt-5 rounded-md hover:bg-yellow-600 mb-4">Sign in</button>
         </label>
       </form>
