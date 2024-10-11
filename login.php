@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,9 +21,10 @@
           <input type="email" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-gray-400">
         <label for="" >
           <h4 class="mt-4 mb-2">Password</h4>
-          <input type="password" placeholder="Veuillz entrer votre email" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-gray-400">
-          <button type="submit" class="bg-yellow-500 w-full p-1 mt-5 rounded-md hover:bg-yellow-600 mb-4">Sign in</button>
+          <input type="password" placeholder="Veuillz entrer votre password" class=" text-sm font-normal w-full p-1 rounded-md text-black border-2 border-gray-400">
+          <button type="submit" class="bg-yellow-500 w-full p-1 mt-5 rounded-md hover:bg-yellow-600 mb-1">Sign in</button>
         </label>
+        <a href="" class="text-sm hover:text-yellow-500 transition-all duration-500">Continue en t'ant que visiteur ?</a>
       </form>
     </div>
   </div>

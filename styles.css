@@ -3,6 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @media (max-width: 768px) {
   #container1{
     display: flex;
@@ -72,15 +74,7 @@
 }
 }
 
-/* Animation to slide the logos continuously */
-.animate-slide {
-  display: flex;
-  gap: 2rem;
-  animation: slide 20s linear infinite;
-  -webkit-animation: slide 30s linear infinite;
-}
 
-/* Ensure images wrap on smaller screens */
 
 
 
