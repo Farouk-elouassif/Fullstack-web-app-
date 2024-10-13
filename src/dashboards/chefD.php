@@ -70,11 +70,38 @@
     </div>
   </div>
 
-  <!-- Main Content - visible in large screens -->
-  <div id="content" class="flex-grow bg-gray-100 p-6 lg:ml-1/5">
-    <!-- Your main content here -->
-    <h1>Main Content Goes Here</h1>
-    <p>Ensure this section adjusts to fill the screen width when the sidebar is visible.</p>
+  
+  <div id="dashboardcontent" class="flex-grow bg-gray-100 p-6 lg:ml-1/5">
+    <div id="userInfo" class="flex flex-col bg-gray-200 p-4">
+      <h1 class="border-b pb-2 border-black"><i class="fa-solid fa-user mr-2"></i>Bienvenu <span class="text-yellow-500 font-semibold">User, Name</span></h1>
+      <div id="userinfocontainer" class="flex flex-row justify-between ">
+        <div id="adresse">
+          <h2 class="font-semibold">Adresse</h2>
+          <ul>
+            <li >Date de naissence: XX XX XXXX</li>
+            <li>Email: example@gmail.com</li>
+            <li>Adresse: XXX XXXX XX XXX</li>
+          </ul>
+        </div>
+        <div id="infoPerso">
+          <h2 class="font-semibold">Informations personnelles</h2>
+          <ul>
+            <li>Nom et prénom: xxx xxxxx </li>
+            <li>Code Massar: xxxxxxxx</li>
+            <li>CIN: XXXXXX</li>
+          </ul>
+        </div>
+        <div id="infoPro">
+          <h2 class="font-semibold">Informations professionnelles</h2>
+          <ul>
+            <li>Département: xxxxxxxx</li>
+            <li>Spécialité: xxxxxxx</li>
+            <li>Code apogée: xxxxx</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
   </div>
 
   <script>

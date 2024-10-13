@@ -72,9 +72,19 @@
     
   }
 
-  #header img{
-    height: 20px;
+
+  
+  #dashboardcontent #userInfo #userinfocontainer{
+    display: flex;
+    flex-direction: column;
   }
+    
+  
+  #dashboardcontent #userInfo #userinfocontainer #adresse, #dashboardcontent #userInfo #userinfocontainer #infoPerso, #dashboardcontent #userInfo #userinfocontainer #infoPro{
+    margin: 5px;
+    margin-top: 15x;
+  } 
+
 }
 
 @keyframes slide {
