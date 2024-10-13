@@ -1,0 +1,84 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (max-width: 768px) {
+  #container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #formationInitial > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 4px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 70%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #form > #espaceDoctorat{   
+    margin-top: 10%;
+    margin-right: 115%;
+    width: 110%;  
+  }
+
+  #container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #container #signin{
+    width : 100%;   
+  }
+
+  #laboratoire #imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+  100% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+}
+}
+
+
+
+
+
+
+
+
+
