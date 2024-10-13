@@ -55,6 +55,26 @@
     align-items: center;
     width: 90%;
   }
+
+  #sidebar{
+    width: 50%;
+  }
+
+  #toggle-btn{
+    background-color: rgb(23 37 84);
+    width: 100%;
+    color: white;
+    padding: 10px;
+  }
+
+  #sidebarHeader{
+    display: none;
+    
+  }
+
+  #header img{
+    height: 20px;
+  }
 }
 
 @keyframes slide {
@@ -72,6 +92,7 @@
     -ms-transform: translateX(100%);
     -o-transform: translateX(100%);
 }
+
 }
 
 

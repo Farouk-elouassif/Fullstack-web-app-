@@ -1,7 +1,4 @@
-<?php
-  session_start();
-  include 'dbconnect.php';
-?>
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,34 +30,7 @@
   </div>
   <?php
     
-    if($_SERVER['REQUEST_METHOD'] === "POST"){
-      $email = $_POST["email"];
-      $password = $_POST["password"];
-      $sql = "SELECT * FROM users WHERE email = '$email'";
-      $result = mysqli_query($conn, $sql);
-
-      if(mysqli_num_rows($result) > 0){
-        $row = mysqli_fetch_assoc($result);
-        
-
-        if($row["password"] === $_POST["password"]){
-          $_SESSION['username'] = $row["name"];          
-          if($row["role"] == "chef de depratement"){
-            header("location: dashboards/chefD_dashboard.php");
-          } elseif($row["role"] == "coordinateur"){
-            header("location: dashboards/coordinateur.php");
-          } elseif($row["role"] == "prof"){
-            header("location: dashboards/prof_dashboard.php");
-          } else {
-            header("location: dashboards/etudiant.php");
-          }
-
-        } else {
-          echo "password inncorrect";
-        }
-      } else 
-        echo "email not found";
-    }
+    
 
     
   ?>
